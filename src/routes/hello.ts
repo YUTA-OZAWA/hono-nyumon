@@ -12,4 +12,8 @@ helloRoute.get('/echo', (c) => {
   return c.json({ Message: `${message} ${allName}!!!` })
 })
 
+helloRoute.get("/health", (c) => {
+  return c.json({ status: "ok" });
+});
+
 export default helloRoute
