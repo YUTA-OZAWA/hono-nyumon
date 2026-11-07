@@ -11,6 +11,9 @@ coverage/
 # TechTrain のテスト出力（成果物だけなので Git 管理外）
 test-outputs/
 
+# Bruno
+hono-nyumon/
+
 # 環境変数
 .env
 .env.*
